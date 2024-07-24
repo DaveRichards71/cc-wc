@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp.csproj", "{BC645505-8264-45A1-B8A4-8A5D6312F58C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic.Tests", "..\Tests\Logic.Tests.csproj", "{11183BF4-2E34-4EC3-BB3B-716BEEE38F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "..\Counts\Logic.csproj", "{A37C6C46-B717-418A-A8FB-7D65E14D3641}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC645505-8264-45A1-B8A4-8A5D6312F58C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC645505-8264-45A1-B8A4-8A5D6312F58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC645505-8264-45A1-B8A4-8A5D6312F58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC645505-8264-45A1-B8A4-8A5D6312F58C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11183BF4-2E34-4EC3-BB3B-716BEEE38F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11183BF4-2E34-4EC3-BB3B-716BEEE38F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11183BF4-2E34-4EC3-BB3B-716BEEE38F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11183BF4-2E34-4EC3-BB3B-716BEEE38F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A37C6C46-B717-418A-A8FB-7D65E14D3641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37C6C46-B717-418A-A8FB-7D65E14D3641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37C6C46-B717-418A-A8FB-7D65E14D3641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37C6C46-B717-418A-A8FB-7D65E14D3641}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17EBF270-95FD-4DE0-A2B3-96C507FAC8CA}
+	EndGlobalSection
+EndGlobal
