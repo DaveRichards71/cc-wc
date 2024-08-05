@@ -18,5 +18,10 @@ namespace Logic
         {
             return fileSystem.File.ReadAllBytes(filename).Length;
         }
+
+        public int CountLines(string filename)
+        {
+            return fileSystem.File.ReadAllLines(filename).Length;
+        }
     }
 }

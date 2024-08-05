@@ -54,5 +54,26 @@ namespace Logic.Tests
             // Assert
             Assert.That(count, Is.EqualTo(4), $"Expected {count} to be {4}");
         }
+
+        [Test]
+        public void Counts_CountLines_CountsLinesInFile()
+        {
+            // Arrange
+            string file1 = @"c:\myfile.txt";
+            var fileSystem = new MockFileSystem(new Dictionary<string, MockFileData>
+            {
+                { file1, new MockFileData("Testing is meh.") }
+            });
+
+            var counts = new Counts(fileSystem);
+
+            // Act
+            var count = counts.CountLines(file1);
+
+            // Assert
+            Assert.That(count, Is.EqualTo(1), $"Expected {count} to be {1}");
+        }
+
+        
     }
 }

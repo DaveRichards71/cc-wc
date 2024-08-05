@@ -9,5 +9,6 @@ namespace Logic
     public interface ICounts
     {
         int CountBytes(string filename);
+        int CountLines(string filename);
     }
 }
